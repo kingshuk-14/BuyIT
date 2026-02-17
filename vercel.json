@@ -2,7 +2,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "env": {
-    "VITE_GOOGLE_API_KEY": "@vite_google_api_key",
+    "VITE_GOOGLE_API_KEY": "@VITE_GOOGLE_API_KEY",
     "VITE_LLM_PROVIDER": "huggingface"
   },
   "functions": {
