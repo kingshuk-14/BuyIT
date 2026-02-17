@@ -16,8 +16,8 @@ build/
 .env.test.local
 .env.production.local
 
-# Vercel serverless functions (deploy via Vercel, not Git)
-api/
+# Vercel serverless functions (deploy via Vercel)
+# Note: keep API functions in repo so Vercel can build them
 
 # IDE and editor files
 .vscode/
