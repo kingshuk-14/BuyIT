@@ -2,9 +2,11 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "env": {
-    "VITE_GOOGLE_API_KEY": "@VITE_GOOGLE_API_KEY",
     "VITE_LLM_PROVIDER": "huggingface"
   },
+    "env": {
+      "VITE_LLM_PROVIDER": "huggingface"
+    },
   "functions": {
     "api/**/*.js": {
       "memory": 1024,
